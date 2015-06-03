@@ -1,0 +1,99 @@
+/* Your Styling */
+body {
+	font-family: 'Maven Pro', sans-serif;
+	background: url("../img/halftone.png");
+}
+
+header {
+	background: url("../img/black_thread.png");
+	height: 100%;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	clear: both;
+}
+
+nav {
+	margin-top: -20px;
+	padding-top: 17px;
+
+}
+
+li {
+ 	list-style: none;
+ 	display: inline-block;
+}
+
+/* First Frame */
+nav a {
+ 	background: #CBFFB2;
+ 	color: #ccc;
+ 	line-height: 1em;
+ 	padding: 1.5em;
+ 	height: 1em;
+ 	width: 15em;
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	text-transform: uppercase; 
+ 	transition: 
+    	height .25s, 
+    	border-bottom 1s, 
+    	letter-spacing .25s ease-in-out;
+}
+
+/* Last Frame */
+nav a:hover {
+  height: 1em;
+  color: #6D6775;
+  letter-spacing: 4px;
+  border-right: .5em #6D6775 double;
+  border-left: .5em #6D6775 double;
+}
+
+.active {
+	height: 1em;
+	color: #6D6775;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	color: LightSalmon;
+}
+
+.dropcap {
+	font-size: 4em;
+	background: #70B24F;
+	color: white;
+	padding: .5em;
+	margin: .25em;
+	float: left;
+	border-radius: 25%;
+}
+
+h4 {
+	text-align: center;
+}
+
+@media (min-width: 980px) {
+	.dropcap {
+		font-size: 3em;
+		background: #70B24F;
+		color: white;
+		padding: .5em;
+		margin: .25em;
+		float: left;
+		border-radius: 25%;
+	}
+}
+
+
+
+
+
+
